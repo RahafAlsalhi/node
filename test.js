@@ -53,7 +53,7 @@ function sum(num) {
 }
 app.get('/sum/:num',function(req,res)
 {var num1 = parseInt(req.params.num);
-    res.json("fact is" +sum(num1))
+    res.json("sum is" +sum(num1))
 })
 function reverse(word){
    word=word.toLowerCase();
